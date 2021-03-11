@@ -16,7 +16,7 @@ namespace APICalculaJuros.Controllers
             try
             {
                 var resultado = await consultaJuros.PegarTaxaJuros();
-                return Ok(resultado);
+                return Ok(resultado);                
             }  
             catch (Exception ex){
                 Console.WriteLine("-----------Começa EXCEÇÃO------------");
@@ -27,17 +27,7 @@ namespace APICalculaJuros.Controllers
             }
         }
 
-        /*[HttpGet("variavelP")]
-        public ActionResult<string> GetVariavelAmbienteP()
-        {
-            var valor = System.Environment.GetEnvironmentVariable("ENDERECO_TAXA_API", EnvironmentVariableTarget.Process);
-            if (valor == null)
-            {
-                return "Variavel vazia";
-            }
-            else
-                return valor;
-        }*/
-        
+        [HttpGet("/showmethecode")]
+        public ActionResult<string> GetShowethecode() => "https://github.com/mguollo/APITaxaJurosComposto";
     }
 }
