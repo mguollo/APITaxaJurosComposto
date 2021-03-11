@@ -1,0 +1,28 @@
+version: '3.5'
+
+networks:
+  localdev:
+    name: localdev
+
+services:
+  taxajuros-api:
+    build: APITaxaJuros
+    restart: always
+    ports: 
+      - 7000:80    
+    networks:
+      - localdev    
+    environment: 
+      - ENDERECO_TAXA_API=http://taxajuros-api:80/Taxajuros      
+      - ASPNETCORE_ENVIRONMENT=Development      
+
+  calculojuros-api:
+    build: APICalculaJuros
+    restart: always
+    ports: 
+      - 7001:80    
+    networks:
+      - localdev
+    environment: 
+      - ENDERECO_TAXA_API=http://taxajuros-api:80/Taxajuros      
+      - ASPNETCORE_ENVIRONMENT=Development
