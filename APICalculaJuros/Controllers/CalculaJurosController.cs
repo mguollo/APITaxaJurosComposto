@@ -1,5 +1,6 @@
 using System;
 using System.Threading.Tasks;
+using APICalculaJuros.Domains;
 using APICalculaJuros.Services.API;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,12 +12,16 @@ namespace APICalculaJuros.Controllers
     public class CalculaJurosController : ControllerBase
     {
         [HttpGet]
-        public async Task<ActionResult> GetCalculaJuros([FromServices] IConsultaJuros consultaJuros)
-        {
+        public async Task<ActionResult> GetCalculaJuros([FromServices] IConsultaJuros consultaJuros, [FromQuery] float ValorInicial, int Meses)
+        {            
             try
-            {
+            {                
+                var oJuro = new JurosCompostos(ValorInicial, Meses);
                 var resultado = await consultaJuros.PegarTaxaJuros();
-                return Ok(resultado);                
+
+                var juros = oJuro.ValorInicial * Math.Pow((1 + resultado), Meses);
+                //return Ok(resultado);                
+                return Ok(juros);
             }  
             catch (Exception ex){
                 Console.WriteLine("-----------Começa EXCEÇÃO------------");
