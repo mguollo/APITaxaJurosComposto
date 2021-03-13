@@ -2,14 +2,15 @@ namespace APICalculaJuros.Domains
 {
     public class JurosCompostos
     {
-        public float ValorInicial { get; } 
+        public double ValorInicial { get; } 
         public int Meses { get; }
-        public float ValorJuros { get; set; }     
-
-        public JurosCompostos(float valorinicial, int meses)        
+        public double TaxaJuros { get; }
+        
+        public JurosCompostos(double valorinicial, int meses, double taxajuros)        
         {
             ValorInicial = valorinicial;
-            Meses = meses;            
+            Meses = meses;   
+            TaxaJuros = taxajuros;         
         }   
     }
 }

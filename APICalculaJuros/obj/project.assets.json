@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj",
+      "projectUniqueName": "c:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj",
       "projectName": "APICalculaJuros",
-      "projectPath": "C:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj",
+      "projectPath": "c:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj",
       "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\obj\\",
+      "outputPath": "c:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,7 +254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

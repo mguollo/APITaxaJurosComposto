@@ -4,6 +4,6 @@ namespace APICalculaJuros.Services.API
 {
     public interface IConsultaJuros
     {
-         public Task<float> PegarTaxaJuros();
+         public Task<double> PegarTaxaJuros();
     }
 }

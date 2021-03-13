@@ -20,7 +20,7 @@ namespace APICalculaJuros.Services.Impl
             else
                 return valor;
         }
-        public async Task<float> PegarTaxaJuros()
+        public async Task<double> PegarTaxaJuros()
         {
             try
             {

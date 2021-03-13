@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
+      "projectUniqueName": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
       "projectName": "APITaxaJuros",
-      "projectPath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
+      "projectPath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
       "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\obj\\",
+      "outputPath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -254,7 +254,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }
