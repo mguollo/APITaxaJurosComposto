@@ -10,7 +10,7 @@ namespace APICalculaJuros.Services.Impl
 {    
     public class ConsultaJuros : IConsultaJuros
     {        
-        private string GetURITaxaJuros()
+        public string GetURITaxaJuros()
         {
             var valor = System.Environment.GetEnvironmentVariable("ENDERECO_TAXA_API", EnvironmentVariableTarget.Process);
             if (valor == null)

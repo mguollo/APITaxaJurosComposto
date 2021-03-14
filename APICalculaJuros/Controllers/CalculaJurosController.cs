@@ -17,17 +17,12 @@ namespace APICalculaJuros.Controllers
         {            
             try
             {   
-                if (ValorInicial == 0 || Meses == 0 )
-                {
-                    return BadRequest("Requisição inválida. Esperado o seguinte formato: /calculajuros?valorinicial=100&meses=5");
-                }
-                /*var oJuro = new JurosCompostos(ValorInicial, Meses);
-                var resultado = await consultaJuros.PegarTaxaJuros();
-                double juros = oJuro.ValorInicial * Math.Pow((1 + resultado), oJuro.Meses);                
-                return Ok(Math.Truncate(juros*100)/100);*/
+                if (ValorInicial <= 0 || Meses <= 0 )
+                    return BadRequest("Requisição com parâmetros inválidos. Esperado o seguinte formato: /calculajuros?valorinicial=100&meses=5");                
+                                
+                var calculoJurosComposto = new CalculoJurosComposto(consultaJuros, ValorInicial, Meses);
 
-                ICalculoJurosComposto calculoJuroComposto = new CalculoJurosComposto(consultaJuros, ValorInicial, Meses);
-                var juros = await calculoJuroComposto.Calcular();
+                var juros = await calculoJurosComposto.Calcular();
 
                 return Ok(string.Format("{0:0,0.00}", juros));
             }  
@@ -41,6 +36,9 @@ namespace APICalculaJuros.Controllers
         }
 
         [HttpGet("/showmethecode")]
-        public ActionResult<string> GetShowethecode() => "https://github.com/mguollo/APITaxaJurosComposto";
+        public ActionResult GetShowethecode()
+        {
+            return Ok("https://github.com/mguollo/APITaxaJurosComposto");
+        }
     }
 }

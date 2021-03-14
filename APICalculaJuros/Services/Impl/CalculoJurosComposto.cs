@@ -9,15 +9,15 @@ namespace APICalculaJuros.Services.Impl
     {
         private double ValorInicial { get; }
         private int Meses { get; }
-        private IConsultaJuros ConsultaJuros { get; }
-
-        public CalculoJurosComposto(IConsultaJuros consultaJuros, double valorInicial, int meses)
-        {
-            ValorInicial = valorInicial;
-            Meses = meses;            
-            ConsultaJuros = consultaJuros;
-        }
+        private IConsultaJuros ConsultaJuros { get; } 
         
+        public CalculoJurosComposto(IConsultaJuros consultajuros, double valorinicial, int meses)        
+        {
+            ConsultaJuros = consultajuros;
+            ValorInicial = valorinicial;
+            Meses = meses;
+        }
+
         public async Task<double> Calcular()
         {
             var juroComposto = await RetornarTaxaJuros();
@@ -26,7 +26,7 @@ namespace APICalculaJuros.Services.Impl
 
         public double CalcularJuroComposto(JurosCompostos jurosCompostos)
         {
-            double juros = jurosCompostos.ValorInicial * Math.Pow((1 + jurosCompostos.TaxaJuros), jurosCompostos.Meses);
+            var juros = jurosCompostos.ValorInicial * Math.Pow((1 + jurosCompostos.TaxaJuros), jurosCompostos.Meses);
             juros = Math.Truncate(juros*100)/100;
 
             return juros;

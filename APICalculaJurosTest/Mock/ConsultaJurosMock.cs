@@ -3,11 +3,11 @@ using System.Threading.Tasks;
 
 namespace APICalculaJurosTest.Mock
 {
-    public class ConsultaJurosTest : IConsultaJuros
+    public class ConsultaJurosMock : IConsultaJuros
     {
         private double _valorJuro { get; }
 
-        public ConsultaJurosTest(double valorJuro)
+        public ConsultaJurosMock(double valorJuro)
         {
             _valorJuro = valorJuro;
             
