@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "raF3PwRg5LpEoJhJngd1/38iMZYadRzNKzULKrB0KttE+V+LynTS0LakB30CGXTGOtAc7rvKUk/bxZA3CHG/Wg==",
+  "dgSpecHash": "ByS+S+6B2U4q9Znx0vvg0qPuRckUCWzjEgObrM0sa0PcbJp+LSHChKrW4/tOVMztH1TS/aFPeD/bTayYaPBuRA==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\APICalculaJurosTest.csproj",
+  "projectFilePath": "c:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\APICalculaJurosTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murilo\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.codecoverage\\16.7.1\\microsoft.codecoverage.16.7.1.nupkg.sha512",

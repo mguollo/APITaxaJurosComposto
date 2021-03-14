@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj": {}
+    "c:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj": {
+    "c:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj",
+        "projectUniqueName": "c:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj",
         "projectName": "APITaxaJurosTest",
-        "projectPath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj",
+        "projectPath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\APITaxaJurosTest.csproj",
         "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\obj\\",
+        "outputPath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJurosTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj": {
-                "projectPath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj"
+              "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj": {
+                "projectPath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj": {
+    "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
+        "projectUniqueName": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
         "projectName": "APITaxaJuros",
-        "projectPath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
+        "projectPath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
         "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\obj\\",
+        "outputPath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",

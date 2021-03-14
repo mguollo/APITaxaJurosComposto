@@ -16,7 +16,7 @@
             
                 Valorinicial = valor da aplicação inicial, númerico.
             
-                Meses = Valor de meses para o calculo dos juros
+                Meses = Valor de meses para o calculo dos juros, inteiro.
             
             O valor da taxa de juros será consultado em serviço externo.
             

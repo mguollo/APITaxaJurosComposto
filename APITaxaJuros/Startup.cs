@@ -37,7 +37,7 @@ namespace APITaxaJuros
             {
                 c.SwaggerDoc("v1", new OpenApiInfo 
                 {
-                    Title = "APITaxaJurps", 
+                    Title = "APITaxaJuros", 
                     Version = "v1",
                     Description = "WEB API para retornar a taxa de juros",
                     Contact = new OpenApiContact{

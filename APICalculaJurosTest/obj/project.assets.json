@@ -5828,11 +5828,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\APICalculaJurosTest.csproj",
+      "projectUniqueName": "c:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\APICalculaJurosTest.csproj",
       "projectName": "APICalculaJurosTest",
-      "projectPath": "C:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\APICalculaJurosTest.csproj",
+      "projectPath": "c:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\APICalculaJurosTest.csproj",
       "packagesPath": "C:\\Users\\Murilo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\obj\\",
+      "outputPath": "c:\\Projetos\\DesafioSoftplan\\APICalculaJurosTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Murilo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5849,8 +5849,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj": {
-              "projectPath": "C:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj"
+            "c:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj": {
+              "projectPath": "c:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj"
             }
           }
         }

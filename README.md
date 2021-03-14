@@ -42,7 +42,7 @@ Endpoints
   - /ShowMeTheCode
 
 **/CalculaJuros**
-Requisição GET no endereço http://localhost:7001/CalculoJuros com os parametros ValorInicial(double) e Meses(inteiro)
+Requisição GET no endereço http://localhost:7001/CalculoJuros com os parâmetros ValorInicial(double) e Meses(inteiro)
 Exemplo:
 ```
 http:localhost:7000/calculajuros?valorinicial=100&meses=5
@@ -52,3 +52,7 @@ Retornará o valor da taxa de juros.
 **/ShowMeTheCode**
 Requisição GET no endereço http://localhost:7001/ShowMeTheCode.
 Retornará o endereço do repositório no GIT.
+
+# Teste de API
+
+Na pasta "\SOAPui TestsCases" existem dois projetos em XML para serem importados no SOAPui. Com eles é possivel realizar os testes dos endpoints dos serviços.

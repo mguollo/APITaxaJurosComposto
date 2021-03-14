@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BrNDWIBRntXasZE+KXuByiL1R0Ut0ZJGPQT2w5MSfl5VcY2apb/wmWVd0p3Gd79UmR1KcfIAJ+PM8na6oE9xJw==",
+  "dgSpecHash": "GSz/Hw6xVLgO7MPycoWB2r3AyCcQSj23wCqqBFUMk6iU4rHfZUQ+8dNKOyFLkx1ssjkuDKlcMqWrvQ9J0XkSww==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
+  "projectFilePath": "c:\\Projetos\\DesafioSoftplan\\APITaxaJuros\\APITaxaJuros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

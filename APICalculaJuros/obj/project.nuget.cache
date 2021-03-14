@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8r5eKEFuLQ7yD9sU3qjYDoJtWmCi7A0mUfoH5Ys5UM17284KzMoqkIUm4FYtfJooarpRT2v0I4drZ8ucZoh2fg==",
+  "dgSpecHash": "tyQXISWtery11AiOqzBqCyNH+M2gIRpoPcDMMwO/x4DzaYx0vqn8tZ89GtvcxzUbzyIu0F2DCTfUxxdNFmx6Dg==",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj",
+  "projectFilePath": "c:\\Projetos\\DesafioSoftplan\\APICalculaJuros\\APICalculaJuros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Murilo\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
