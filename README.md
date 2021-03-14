@@ -45,7 +45,7 @@ Endpoints
 Requisição GET no endereço http://localhost:7001/CalculoJuros com os parâmetros ValorInicial(double) e Meses(inteiro)
 Exemplo:
 ```
-http:localhost:7000/calculajuros?valorinicial=100&meses=5
+http:localhost:7001/calculajuros?valorinicial=100&meses=5
 ```
 Retornará o valor da taxa de juros.
 
