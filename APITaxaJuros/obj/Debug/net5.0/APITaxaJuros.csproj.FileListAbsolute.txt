@@ -27,3 +27,5 @@ C:\Projetos\DesafioSoftplan\APITaxaJuros\obj\Debug\net5.0\APITaxaJuros.dll
 C:\Projetos\DesafioSoftplan\APITaxaJuros\obj\Debug\net5.0\ref\APITaxaJuros.dll
 C:\Projetos\DesafioSoftplan\APITaxaJuros\obj\Debug\net5.0\APITaxaJuros.pdb
 C:\Projetos\DesafioSoftplan\APITaxaJuros\obj\Debug\net5.0\APITaxaJuros.genruntimeconfig.cache
+C:\Projetos\DesafioSoftplan\APITaxaJuros\bin\Debug\net5.0\APITaxaJuros.xml
+C:\Projetos\DesafioSoftplan\APITaxaJuros\obj\Debug\net5.0\APITaxaJuros.xml

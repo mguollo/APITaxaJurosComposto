@@ -110,3 +110,4 @@ C:\Projetos\DesafioSoftplan\APICalculaJurosTest\obj\Debug\net5.0\APICalculaJuros
 C:\Projetos\DesafioSoftplan\APICalculaJurosTest\bin\Debug\net5.0\APICalculaJuros.deps.json
 C:\Projetos\DesafioSoftplan\APICalculaJurosTest\bin\Debug\net5.0\APICalculaJuros.runtimeconfig.json
 C:\Projetos\DesafioSoftplan\APICalculaJurosTest\bin\Debug\net5.0\APICalculaJuros.runtimeconfig.dev.json
+C:\Projetos\DesafioSoftplan\APICalculaJurosTest\bin\Debug\net5.0\APICalculaJuros.xml

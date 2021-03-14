@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using APITaxaJuros.Services;
 using APITaxaJuros.Services.Impl;
@@ -33,7 +35,21 @@ namespace APITaxaJuros
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "APITaxaJuros", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                {
+                    Title = "APITaxaJurps", 
+                    Version = "v1",
+                    Description = "WEB API para retornar a taxa de juros",
+                    Contact = new OpenApiContact{
+                        Name = "Murilo Guollo",
+                        Email = "muriloguollo@gmail.com",
+                        Url = new Uri("https://github.com/mguollo")
+                    } 
+                });
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
         }
 

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APITaxaJuros</name>
+    </assembly>
+    <members>
+        <member name="M:APITaxaJuros.Controllers.TaxaJurosController.GetTaxaJuros(APITaxaJuros.Services.ITaxaJuros)">
+            <summary>
+            Retorna a taxa de juros para calculo de juros compostos
+            </summary>
+            <param name="taxaJuros">taxa de juros</param>
+            <returns>Json com valor na chave Taxa Juros</returns>        
+        </member>
+    </members>
+</doc>

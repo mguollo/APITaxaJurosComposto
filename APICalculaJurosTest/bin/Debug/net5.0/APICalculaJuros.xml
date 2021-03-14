@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APICalculaJuros</name>
+    </assembly>
+    <members>
+        <member name="M:APICalculaJuros.Controllers.CalculaJurosController.GetCalculaJuros(APICalculaJuros.Services.API.IConsultaJuros,System.Double,System.Int32)">
+            <summary>
+            Calculo dos juros compostos
+            </summary>
+            <remarks>
+            Exemplo de request: 
+                http:localhost:7000/calculajuros?valorinicial=100&amp;meses=5
+                    
+            Onde:
+            
+                Valorinicial = valor da aplicação inicial, númerico.
+            
+                Meses = Valor de meses para o calculo dos juros
+            
+            O valor da taxa de juros será consultado em serviço externo.
+            
+            </remarks>
+            <param name="consultaJuros"></param>
+            <param name="ValorInicial"></param>
+            <param name="Meses"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APICalculaJuros.Controllers.CalculaJurosController.GetShowethecode">
+            <summary>
+            Repositório do projeto
+            </summary>
+            <returns>URL do repositório do Git</returns>
+        </member>
+    </members>
+</doc>

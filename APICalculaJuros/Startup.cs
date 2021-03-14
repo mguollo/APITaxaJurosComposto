@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using APICalculaJuros.Services.API;
 using APICalculaJuros.Services.Impl;
@@ -33,8 +35,22 @@ namespace APICalculaJuros
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "APICalculaJuros", Version = "v1" });
-            });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                {
+                    Title = "APICalculaJuros", 
+                    Version = "v1",
+                    Description = "WEB API para cálculo de juros compostos",
+                    Contact = new OpenApiContact{
+                        Name = "Murilo Guollo",
+                        Email = "muriloguollo@gmail.com",
+                        Url = new Uri("https://github.com/mguollo")
+                    } 
+                });
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
+            });            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

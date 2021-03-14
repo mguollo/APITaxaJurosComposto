@@ -27,3 +27,5 @@ C:\Projetos\DesafioSoftplan\APICalculaJuros\obj\Debug\net5.0\APICalculaJuros.dll
 C:\Projetos\DesafioSoftplan\APICalculaJuros\obj\Debug\net5.0\ref\APICalculaJuros.dll
 C:\Projetos\DesafioSoftplan\APICalculaJuros\obj\Debug\net5.0\APICalculaJuros.pdb
 C:\Projetos\DesafioSoftplan\APICalculaJuros\obj\Debug\net5.0\APICalculaJuros.genruntimeconfig.cache
+C:\Projetos\DesafioSoftplan\APICalculaJuros\bin\Debug\net5.0\APICalculaJuros.xml
+C:\Projetos\DesafioSoftplan\APICalculaJuros\obj\Debug\net5.0\APICalculaJuros.xml
